@@ -8,6 +8,10 @@ Depends: R (>= 3.4.3)
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
-Imports: magrittr, ghapi
+Imports: magrittr,
+    ghapi,
+    readr,
+    purrr,
+    rlang
 RoxygenNote: 6.0.1
 Remotes: coatless/ghapi
